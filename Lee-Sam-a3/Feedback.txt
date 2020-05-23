@@ -1,0 +1,8 @@
+- GUI Control:
+-- Left button does not reliably turn the Cyborg
+-- Right button does not reliably turn the Cyborg
+
+- Cyborg and NPC:
+-- Color of both cyborgs should fade on cyborg-cyborg collisions
+
+Great Work!

@@ -1,0 +1,34 @@
+Grader Comments:
+
+- UML:
+-- GameWorld is missing “has-a” relationship with GameObjectCollection (need to use diamond shaped arrows for "has-a" relationship)
+-- Game is missing “has-a” relationship with MapView
+-- Game is missing "has-a" relationship with ScoreView.
+-- MapView should extend Container
+-- ScoreView should extend Container
+-- MapView should implement Observer interface
+-- ScoreView should implement Observer interface
+-- GameWorld should extend Observable
+-- GameWorld is missing "has-a" relationship with Command
+-- Programmer defined command classes need to extend Command
+-- PlayerCyborg should have a private field for the single PlayerCyborg instance
+
+- Cyborgs
+-- Cyborg should be abstract
+
+- ScoreView
+-- Cyborg energy level should be updated in ScoreView (doesn't work with 'e')
+-- Cyborg damage level should be updated in ScoreView everytime damage is taken
+
+- Side Menu/Title Bar
+-- Need Accelerate in Side-menu
+-- Exit in Side-menu does not work (Side menu disapears after opening once)
+-- Sound in Side-menu does not work
+-- About in Side-menu does not work
+-- Need Help in Title bar area
+
+- Readme.txt
+-- Need to submit readme.txt file outside of zip archive
+
+
+Good job structuring your code!

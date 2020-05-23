@@ -1,0 +1,26 @@
+Grader Comments:
+
+- Execution:
+-- Cyborg energy level needs to increase in proportion with energyStation during cyborg/energyStation collision.
+-- Energy station capacity needs to decrease to 0 during cyborg/energyStation collision.
+-- Energy station color needs to fade during cyborg/energyStation collision.
+-- A new energy station needs to be created during cyborg/energyStation collision.
+-- Cyborg heading needs to increment or decrement on clock tick in relation to the steeringDirection.
+-- Drone objects need to update their position on clock tick.
+-- Cyborg damage level needs to increase after Cyborg/Drone collision.
+-- Number of lives going into negative (below 0) without game exiting.
+-- Game needs to end when cyborg reaches last base in sequential order, print "Game Over, you win! Total time: " to console, and exit.
+-- Energy level is going into negative (below 0) without loosing a life.
+-- Speed limit needs to be limited by cyborg's damage.
+-- Steering must stay within 40 degrees of left or right of straight ahead.
+
+- In UML:
+-- Starter failed to have a has-a relationship with Game.
+-- GameWorld [One] failed to have a has-a one to many relationship with GameObjects[ Many (*)].
+-- GameObject, Fixed, and Movable need to be abstract.
+-- ISteerable should be an interface.
+-- Base should have setColor() method.
+
+- In Code:
+-- setSize() method cannot be public in GameObject.
+-- Base should have setColor() method.
